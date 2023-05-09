@@ -22,7 +22,7 @@ Power supply decoupling capacitors are sized according to the datasheet. Two sma
 
 Because input resistance is 1K you will need to provide some sort of impedance matching to be able to interface from other devices. I have a few buffer designs on my GitHub.
 
-The overall gain is configured to be 10V/V or 20dB. This is a minimum gain recommended by the datasheet and allows designer greater flexibility in choosing the previous stage.
+The overall gain is configured to be 10V/V or 20dB. Such gain value allows designer a greater flexibility in choosing the previous stage.
 
 Recommended power supply is dual 25V supply supplying 4A for one channel.
 
