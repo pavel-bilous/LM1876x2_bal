@@ -2,10 +2,12 @@
 
 LM1876 parallel implementation of the two integrated channels.
 
-Two paralleled integrated channels of the LM1876 IC amplifier with balanced inputs using THT and SMD components
-Schematics and PCB layout for two LM3886 connected in parallel. Created using KiCad v5.
+The amplifier is with balanced inputs and using THT and SMD components. Created using KiCad v5.
 
-Benefits of using two chips in parallel include: increase of the output drive capability of an amplifier, reduced voltage noise (better SNR), and reduced output offset error.
+Benefits of using two chips in parallel include: 
+- increase of the output drive capability of an amplifier, 
+- reduced voltage noise (better SNR), 
+- and reduced output offset error.
 
 Resources used to design this amp:
 * Official datasheet - [https://www.ti.com/lit/ds/symlink/lm3886.pdf](https://www.ti.com/lit/ds/symlink/lm3886.pdf)
