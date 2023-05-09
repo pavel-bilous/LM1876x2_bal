@@ -1,6 +1,6 @@
 # LM1876x2_bal
 
-LM1876 amplifier with two paralleled integrated channels, balanced inputs, and THT/SMD components. Created using KiCad v5.
+LM1876 Overture Series amplifier with two paralleled integrated channels, balanced inputs, and THT/SMD components. Created using KiCad v5.
 
 Benefits of using two chips in parallel include: 
 - increase of the output drive capability of an amplifier (higher output current drive), 
