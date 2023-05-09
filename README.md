@@ -1,4 +1,4 @@
-# LM1876x2_bal
+# Paralleled LM1876 amplifier with balanced input
 
 LM1876 Overture Series amplifier with two paralleled integrated channels, balanced inputs, and THT/SMD components. Created using KiCad v5.
 
