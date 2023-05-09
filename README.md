@@ -26,8 +26,6 @@ The overall gain is configured to be 10V/V or 20dB. Such gain value allows desig
 
 Recommended power supply is dual 25V supply.
 
-Schematics is below:
-
 ![Screenshot](imgs/sch.png)
 
 
