@@ -33,7 +33,11 @@ Schematics is below:
 
 # PCB notes:
 
-All elements are THT type.
+PCB was created by keeping following important points in mind:
+- First elements that were placed next to the IC were decoupling ceramic capacitors. Those are SMD 1206 footpints with increased pad sizes that can be hand soldered. One of the capacitors was placed on the bottom side of the board to allow for shorter ground loop signal travel distance (distance from Vcc pin to capacitor, then to GND, then to the other capacitor, and finally to the Vee pin).
+- Elements on the board were separated into two groups - one with low current to the right, and another with high current to the left of the IC). 
+- Bottom layer is GND, top layer is power + signal. Certain variations were needed to route power and MUTE/STBY signals. Top layer was pured with GND in between signal and power traces and stiched with vias to improve EMI performance.
+- Two layer board with minimum track width and clearance of 0.3mm, vias sized 0.3mm drill and 0.7mm ring for easy manufacturing.
 
 ![Screenshot](imgs/pcb.png)
 
